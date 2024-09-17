@@ -6737,7 +6737,7 @@ CharacterController:
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
+  m_MinMoveDistance: 0
   m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!114 &1357330818
 MonoBehaviour:
@@ -6755,7 +6755,9 @@ MonoBehaviour:
   characterController: {fileID: 1357330817}
   speed: 10
   turnSpeed: 250
-  gravity: -9.8
+  gravity: 9.8
+  jumpSpeed: 7
+  jumpKeyCode: 32
 --- !u!1001 &1362605567
 PrefabInstance:
   m_ObjectHideFlags: 0
