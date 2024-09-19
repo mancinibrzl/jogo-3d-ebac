@@ -6755,7 +6755,7 @@ MonoBehaviour:
   characterController: {fileID: 1357330817}
   speed: 10
   turnSpeed: 250
-  gravity: 9.8
+  gravity: -9.8
   jumpSpeed: 7
   jumpKeyCode: 32
 --- !u!1001 &1362605567
