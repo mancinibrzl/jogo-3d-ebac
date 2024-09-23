@@ -6822,6 +6822,7 @@ GameObject:
   - component: {fileID: 1357330816}
   - component: {fileID: 1357330818}
   - component: {fileID: 1357330817}
+  - component: {fileID: 1357330819}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -6893,6 +6894,19 @@ MonoBehaviour:
   jumpKeyCode: 32
   keyRun: 304
   speedRun: 1.5
+--- !u!114 &1357330819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357330815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4af73e831e0bf554d9bb419dbdef622b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gunBase: {fileID: 1030796845}
 --- !u!1001 &1362605567
 PrefabInstance:
   m_ObjectHideFlags: 0
