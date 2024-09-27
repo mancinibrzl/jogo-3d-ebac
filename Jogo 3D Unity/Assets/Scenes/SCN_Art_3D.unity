@@ -7066,7 +7066,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4af73e831e0bf554d9bb419dbdef622b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gunBase: {fileID: 3875622923579772645, guid: 9ddf4e721841fa44e983d0f69cdcab03, type: 3}
+  _gunPrefabs:
+  - {fileID: 3875622923579772645, guid: 9ddf4e721841fa44e983d0f69cdcab03, type: 3}
+  - {fileID: 7848654199315085593, guid: 4e17b2c56a03b0e47afd83943602a901, type: 3}
   gunPosition: {fileID: 215663193}
 --- !u!1001 &1362605567
 PrefabInstance:
