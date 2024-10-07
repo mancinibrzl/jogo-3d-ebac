@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, IDamageable
 {
     public Animator animator;
 
@@ -20,6 +20,18 @@ public class Player : MonoBehaviour
     [Header("Run Setup")]
     public KeyCode keyRun = KeyCode.LeftShift;
     public float speedRun = 1.5f;
+
+    #region LIFE
+    public void Damage(float damage)
+    {
+
+    }
+
+    public void Damage(float damage, Vector3 dir)
+    {
+        
+    }
+    #endregion
 
     private void Update()
     {
@@ -59,6 +71,6 @@ public class Player : MonoBehaviour
 
         animator.SetBool("Run", inputAxisVertical != 0);
     }
-    
+
 }
 
