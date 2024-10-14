@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 9102361932687114312}
   - component: {fileID: 4901767242012867589}
-  - component: {fileID: 1702668503817080873}
   - component: {fileID: 4778378436950500637}
   - component: {fileID: 564066179747360248}
   - component: {fileID: 3486153787213171736}
@@ -52,6 +51,7 @@ MonoBehaviour:
   collider: {fileID: 4778378436950500637}
   flashColor: {fileID: 2033520702962180693}
   particleSystem: {fileID: 4062627680213357238}
+  graphicTransform: {fileID: 0}
   startLife: 10
   _currentLife: 0
   _animationBase: {fileID: 564066179747360248}
@@ -59,27 +59,6 @@ MonoBehaviour:
   startAnimationEase: 27
   startWithBornAnimation: 1
   gunBase: {fileID: 1042818668472459264}
---- !u!114 &1702668503817080873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 703128943510211642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b209445bb2ee614f922c774dfb30b43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collider: {fileID: 4778378436950500637}
-  flashColor: {fileID: 2033520702962180693}
-  particleSystem: {fileID: 4062627680213357238}
-  startLife: 10
-  _currentLife: 0
-  _animationBase: {fileID: 564066179747360248}
-  startAnimationDuration: 0.2
-  startAnimationEase: 27
-  startWithBornAnimation: 1
 --- !u!65 &4778378436950500637
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -99,7 +78,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4, y: -4, z: 4}
+  m_Size: {x: 3, y: -3, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &564066179747360248
 MonoBehaviour:
