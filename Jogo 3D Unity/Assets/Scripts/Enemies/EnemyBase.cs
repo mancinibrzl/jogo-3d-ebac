@@ -11,6 +11,7 @@ namespace Enemy
         public Collider collider;
         public FlashColor flashColor;
         public ParticleSystem particleSystem;
+        public Transform graphicTransform;
 
         public float startLife = 10f;
 
@@ -72,7 +73,7 @@ namespace Enemy
         #region ANIMATION
         private void BornAnimation()
         {
-            transform.DOScale(0, startAnimationDuration).SetEase(startAnimationEase).From();
+            graphicTransform.DOScale(0, startAnimationDuration).SetEase(startAnimationEase).From();
         }
 
         public void PlayAnimationByTrigger(AnimationType animationType)
