@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 8027646027561019392}
   m_Layer: 0
   m_Name: Enemy_04 Green
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,6 +84,7 @@ MonoBehaviour:
   collider: {fileID: 5477213589165083913}
   flashColor: {fileID: 2427543247275159444}
   particleSystem: {fileID: 4048847450306473563}
+  graphicTransform: {fileID: 0}
   startLife: 10
   _currentLife: 0
   _animationBase: {fileID: 272102223456071822}

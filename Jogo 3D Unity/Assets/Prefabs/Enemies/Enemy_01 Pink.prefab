@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4008965755366091551}
   m_Layer: 0
   m_Name: Enemy_01 Pink
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50,15 +50,19 @@ MonoBehaviour:
   collider: {fileID: 3856238033857236745}
   flashColor: {fileID: 5208234612318144944}
   particleSystem: {fileID: 7788202047979900664}
+  graphicTransform: {fileID: 0}
   startLife: 10
   _currentLife: 0
   _animationBase: {fileID: 4008965755366091551}
   startAnimationDuration: 0.2
   startAnimationEase: 27
   startWithBornAnimation: 1
-  waypoints: []
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   minDistance: 1
-  speed: 1
+  speed: 10
 --- !u!65 &3856238033857236745
 BoxCollider:
   m_ObjectHideFlags: 0
