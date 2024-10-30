@@ -111,7 +111,7 @@ namespace Enemy
             }
         }
 
-        private virtual void Update()
+        public virtual void Update()
         {
             if (lookAtPlayer)
             {
